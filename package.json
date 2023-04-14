@@ -1,0 +1,18 @@
+{
+  "name": "new_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --require './appsignal.cjs' index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@appsignal/nodejs": "^3.0.12",
+    "@fastify/mongodb": "^7.0.0",
+    "fastify-plugin": "^4.5.0"
+  }
+}
